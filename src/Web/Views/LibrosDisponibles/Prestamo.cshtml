@@ -1,0 +1,84 @@
+﻿@model Biblioteca.Web.Models.modelViews.PrestamoViewModel
+
+@{
+    ViewData["Title"] = "Prestamo";
+}
+
+<h1>Prestamo</h1>
+
+<hr />
+
+<div>
+    <h4>Libro</h4>
+    <hr />
+    <dl class="row bg-light">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Libro.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Libro.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Libro.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Libro.Nombre)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Libro.Tipo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Libro.Tipo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Libro.Estado)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Libro.Estado)
+        </dd>
+    </dl>
+</div>
+<h4>Datos del prestamo</h4>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="LibrosDisponibles" asp-action="Prestamo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Libro.Id" />
+            <input type="hidden" asp-for="Libro.Nombre" />
+            <input type="hidden" asp-for="Libro.Descripcion" />
+            <div class="form-group">
+                <label asp-for="Prestamo.Identificacion" class="control-label"></label>
+                <input asp-for="Prestamo.Identificacion" class="form-control" />
+                <span asp-validation-for="Prestamo.Identificacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prestamo.Nombre" class="control-label"></label>
+                <input asp-for="Prestamo.Nombre" class="form-control" />
+                <span asp-validation-for="Prestamo.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prestamo.Apellidos" class="control-label"></label>
+                <input asp-for="Prestamo.Apellidos" class="form-control" />
+                <span asp-validation-for="Prestamo.Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prestamo.FechaDeDevolucion" class="control-label"></label>
+                <input asp-for="Prestamo.FechaDeDevolucion" class="form-control" />
+                <span asp-validation-for="Prestamo.FechaDeDevolucion" class="text-danger"></span>
+            </div>
+            <hr />
+            <div class="form-group">
+                <input type="submit" value="Confirmar" class="btn btn-primary" />
+                <a asp-controller="LibrosDisponibles" asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
