@@ -1,8 +1,8 @@
 ﻿namespace Biblioteca.Core.Enums
 {
-    public enum Estado
+    public enum State
     {
-        PRESTADO = 1,
-        DISPONIBLE = 2
+        Availible = 1,
+        Unavailibe = 2
     }
 }

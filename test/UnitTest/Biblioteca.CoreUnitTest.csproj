@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Core\Biblioteca.Core.csproj" />
+  </ItemGroup>
+
 </Project>

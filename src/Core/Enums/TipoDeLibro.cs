@@ -1,12 +1,12 @@
-﻿namespace Biblioteca.Core.Enums
-{
-    public enum TipoDeLibro
-    {
-        CIENTIFICO,
-        LITERATURA_LINGUISTICO,
-        VIAJE,
-        BIOGRAFIA,
-        LIBRO_TEXTO
+﻿namespace Biblioteca.Core.Enums;
 
-    }
+public enum Tags
+{
+    Programing,
+    Csients,
+    Maths,
+    Computer_Csients,
+    Other
+
 }
+

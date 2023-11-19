@@ -1,0 +1,12 @@
+@hostname=localhost
+@port=5229
+@Base = /Api/v1
+
+GET http://{{hostname}}:{{port}}{{Base}}/Books
+
+
+###
+@Id=123
+
+GET http://{{hostname}}:{{port}}{{Base}}/Books/{{Id}}
+
