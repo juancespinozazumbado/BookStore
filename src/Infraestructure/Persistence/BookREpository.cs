@@ -1,7 +1,7 @@
-﻿using Biblioteca.Core.Entities;
-using Biblioteca.Core.interfaces;
+﻿using BookStore.Core.Entities;
+using BookStore.Core.interfaces;
 
-namespace Biblioteca.Infraestructure.Persistence;
+namespace BookStore.Infraestructure.Persistence;
 
 public class BookREpository : IBookRepository
 {

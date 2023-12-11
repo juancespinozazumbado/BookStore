@@ -1,5 +1,5 @@
 
-namespace Biblioteca.Core.interfaces;
+namespace BookStore.Core.interfaces;
 public interface IBookService 
 {
 

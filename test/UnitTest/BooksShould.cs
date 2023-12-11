@@ -1,6 +1,6 @@
-using Biblioteca.Core.Entities.BooksAgregate;
+using BookStore.Core.Entities.BooksAgregate;
 
-namespace Biblioteca.CoreUnitTest;
+namespace BookStore.CoreUnitTest;
 public class BooksShould
 {
     [Fact]

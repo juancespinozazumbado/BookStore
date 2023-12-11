@@ -1,7 +1,7 @@
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace Biblioteca.Infraestructure.Identity;
+namespace BookStore.Infraestructure.Identity;
 
 public class UserContext : IdentityDbContext
 {

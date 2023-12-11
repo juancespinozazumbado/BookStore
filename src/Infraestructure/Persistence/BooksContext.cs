@@ -1,7 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace Biblioteca.Infraestructure.Persistence;
+namespace BookStore.Infraestructure.Persistence;
 
 public class BooksContext : DbContext
 {

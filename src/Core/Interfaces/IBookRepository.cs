@@ -1,6 +1,6 @@
-﻿using Biblioteca.Core.Entities;
+﻿using BookStore.Core.Entities;
 
-namespace Biblioteca.Core.interfaces;
+namespace BookStore.Core.interfaces;
 public interface IBookRepository
 {
    

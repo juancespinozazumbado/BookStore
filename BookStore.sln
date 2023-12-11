@@ -5,15 +5,15 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05B3916E-8161-4275-A651-D8BAC35691B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca.Core", "src\Core\Biblioteca.Core.csproj", "{D557881F-CE49-471D-B412-04D69DFE6E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Core", "src\Core\BookStore.Core.csproj", "{D557881F-CE49-471D-B412-04D69DFE6E6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca.Infraestructure", "src\Infraestructure\Biblioteca.Infraestructure.csproj", "{976BCC8E-A37F-48FB-9EB9-0CC18F35CE68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Infraestructure", "src\Infraestructure\BookStore.Infraestructure.csproj", "{976BCC8E-A37F-48FB-9EB9-0CC18F35CE68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{80F90C44-441B-4FD5-8E27-EFE56B0F77B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca.CoreUnitTest", "test\UnitTest\Biblioteca.CoreUnitTest.csproj", "{83B0DD79-2DE1-49F7-87F9-5267E56AEE98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.CoreUnitTest", "test\UnitTest\BookStore.UnitTest.csproj", "{83B0DD79-2DE1-49F7-87F9-5267E56AEE98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibiolteca.WebApi", "src\WebApi\Bibiolteca.WebApi.csproj", "{422B00A7-033E-435E-808C-CC211362A796}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WebApi", "src\WebApi\BookStore.WebApi.csproj", "{422B00A7-033E-435E-808C-CC211362A796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

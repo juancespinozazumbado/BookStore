@@ -1,7 +1,7 @@
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Biblioteca.Infraestructure.Identity;
+namespace BookStore.Infraestructure.Identity;
 
 public class User : IdentityUser
 {

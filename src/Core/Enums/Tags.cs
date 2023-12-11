@@ -1,4 +1,4 @@
-﻿namespace Biblioteca.Core.Enums;
+﻿namespace BookStore.Core.Enums;
 
 public enum Tags
 {

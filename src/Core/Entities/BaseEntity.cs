@@ -1,5 +1,5 @@
 
-namespace Biblioteca.Core.Entities;
+namespace BookStore.Core.Entities;
 
 public abstract class BaseEntity
 {

@@ -1,7 +1,7 @@
 
-using Biblioteca.Core.interfaces;
+using BookStore.Core.interfaces;
 
-namespace  Biblioteca.Infraestructure.Services.Email;
+namespace  BookStore.Infraestructure.Services.Email;
 
 public class EmailService : IEmailService
 {

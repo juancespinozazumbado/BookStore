@@ -1,6 +1,7 @@
-﻿using Biblioteca.Core.interfaces;
+﻿using BookStore.Core.interfaces;
 
-namespace Biblioteca.Core.Entities.BooksAgregate;
+
+namespace BookStore.Core.Entities.BooksAgregate;
 
 public class Book : BaseEntity, IAgregateRoot
 {

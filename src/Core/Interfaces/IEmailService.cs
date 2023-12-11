@@ -1,7 +1,4 @@
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
-
-namespace Biblioteca.Core.interfaces;
+namespace BookStore.Core.interfaces;
 
 public interface IEmailService
 {
