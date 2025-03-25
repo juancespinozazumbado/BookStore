@@ -3,6 +3,7 @@
     public enum State
     {
         Availible = 1,
-        Unavailibe = 2
+        Unavailibe = 2,
+        inStok = 3
     }
 }
